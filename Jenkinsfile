@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-           git branch: 'main', url: 'https://github.com/ooghenekaro/infra-jenkins.git'
+           git branch: 'main', url: 'https://github.com/medinahakinsowon/infra-jenkins.git'
   
             }
         }
